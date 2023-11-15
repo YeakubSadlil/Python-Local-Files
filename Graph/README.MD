@@ -1,10 +1,3 @@
-<h1 align="center">
-  🌟 Real-time Automated Mango Leaf Disease Detection in Bangladesh using CNNs 
-</h1>
-<p align="center"> 
-Detect and classify Bangladeshi mango leaf diseases in real-time with our cutting-edge Computer Vision model with 99.21 % accuracy, minimizing yield losses and empowering farmers.
-</p>
-
 <p align="center">
-  <img src="Graph/bfs4-300x296.png"/>
+  <img src="https://github.com/YeakubSadlil/Python-Local-Files/blob/038d2106b00a0daf327899304471d265ea40e001/Graph/bfs4-300x296.png"/>
 </p>
