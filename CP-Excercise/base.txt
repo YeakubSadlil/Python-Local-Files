@@ -1,0 +1,14 @@
+basemodel = VGG16(input_shape=(img_size, img_size, 3), weights='imagenet', include_top=False)
+
+basemodel.trainable = True
+
+MODEL_NAME_3 = 'LVEF_VGG16_with_all_trainable_layers'
+
+inputs = Input(shape=(img_size, img_size, 3), name="InputLayer")
+inputs = preprocess_input(inputs)
+var = basemodel(inputs)
+
+var = Conv2D(num_of_coordinates, kernel_size=3, activation='relu', name="Conv")(var)
+outputs = Conv2D(num_of_coordinates, kernel_size=1, activation='sigmoid', name="OutputLayer")(var)
+
+model_vgg_alltr = Model(inputs, outputs, name=MODEL_NAME_3)

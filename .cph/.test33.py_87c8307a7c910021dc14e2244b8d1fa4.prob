@@ -1,0 +1,1 @@
+{"name":"Local: test33","url":"/home/yakub/Documents/Python/test33.py","tests":[{"id":1695875265909,"input":"1\nabaaaba","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/yakub/Documents/Python/test33.py","group":"local","local":true}
