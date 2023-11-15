@@ -6,5 +6,5 @@ Detect and classify Bangladeshi mango leaf diseases in real-time with our cuttin
 </p>
 
 <p align="center">
-  <img src="Graph/bfs4-300x296.png"" />
+  <img src="Graph/bfs4-300x296.png"/>
 </p>
